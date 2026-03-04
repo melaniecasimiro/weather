@@ -2,7 +2,7 @@ name: Update Weather
 
 on:
   schedule:
-    - cron: '0 0-23 * * *'   # runs every hour
+    - cron: '0 0-2 * * *'   # runs every hour
   workflow_dispatch:       # allows manual run
 
 jobs:
