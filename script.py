@@ -1,7 +1,7 @@
 import requests
 from datetime import datetime
 from zoneinfo import ZoneInfo  
-url = "https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=21.01&current_weather=true"
+url = "https://api.open-meteo.com/v1/forecast?latitude=52.2297&longitude=21.0122&current_weather=true"
 
 response = requests.get(url)
 data = response.json()
@@ -20,7 +20,7 @@ html_content = f"""
 <body>
     <h1>Weather in Warsaw</h1>
     <p>Temperature: {temp}°C</p>
-    <p>Last updated: {warsaw_time} (CET/CEST)</p>
+    <p>Last updated: {warsaw_time} (</p>
 </body>
 </html>
 """
