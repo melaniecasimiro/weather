@@ -3,41 +3,10 @@
 <html>
 <head>
     <title>Weather Dashboard</title>
- <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 50px;
-      background: linear-gradient(to right, #74ebd5, #ACB6E5); /* nice background */
-      color: #fff;
-    }
-    #time {
-      font-size: 2rem;
-      margin-top: 20px;
-    }
-  </style>
 </head>
 <body>
-  <h1>Current Weather</h1>
-  <div id="time">Loading time...</div>
-
-  <script>
-    // Function to update time
-    function updateTime() {
-      // Get current time in Warsaw timezone
-      const now = new Date();
-      // Convert to Warsaw time using Intl API
-      const options = { hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Warsaw' };
-      const localTime = now.toLocaleTimeString([], options);
-      
-      document.getElementById('time').innerText = `Last updated: ${localTime}`;
-    }
-
-    // Update time immediately
-    updateTime();
-
-    // Update every hour (3600000 ms)
-    setInterval(updateTime, 3600000);
-  </script>
+    <h1>Weather in Warsaw</h1>
+    <p>Temperature: 0.2°C</p>
+    <p>Last updated: 2026-03-04 20:18:50</p>
 </body>
 </html>
