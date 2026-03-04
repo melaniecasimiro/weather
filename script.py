@@ -20,7 +20,7 @@ html_content = f"""
 <body>
     <h1>Weather in Warsaw</h1>
     <p>Temperature: {temp}°C</p>
-    <p>Last updated: {warsaw_time} (</p>
+    <p>Last updated: {warsaw_time}</p>
 </body>
 </html>
 """
