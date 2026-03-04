@@ -18,7 +18,7 @@ The project uses the Open-Meteo API to fetch real-time weather data, this API wa
 
 How to Run the Workflow Manually
 
-The wrkflow can be triggered manually following this steps:
+The workflow can be triggered manually following this steps:
 
 1 - Go to the Actions tab in the repository
 
