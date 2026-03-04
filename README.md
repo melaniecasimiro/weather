@@ -26,5 +26,7 @@ The workflow can be triggered manually following these steps:
 
 3. Click "Run workflow"
 
-Live Website
+4. Confirm by clicking Run workflow 
+
+***Live Website***
 https://melaniecasimiro.github.io/weather/
